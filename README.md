@@ -1,10 +1,5 @@
 # KAAL-The-voice-Assistant
-KAAL is a Personal Voice Assistant built with Python, HTML, CSS, and JavaScript. It leverages libraries like SpeechRecognition, Pyttsx3, Pyaudio, and Tkinter to perform tasks such as voice-based search, automation, and offline music playback, offering an interactive and intelligent user experience.
-# 🧠 KAAL – Personal Voice Assistant  
-
-**KAAL** is a smart **Personal Voice Assistant** built with **Python, HTML, CSS, and JavaScript**, designed to simplify daily tasks through natural voice commands. It combines speech processing, automation, and a clean web interface to deliver an interactive assistant experience.  
-
----
+KAAL is a Personal Voice Assistant built with Python, HTML, CSS, and JavaScript. It leverages libraries like SpeechRecognition, Pyttsx3, Pyaudio, and Tkinter to perform tasks such as voice-based search, automation, and offline music playback, offering an interactive and intelligent user experience.             
 
 ## ✨ Features
 - 🎙️ **Speech Recognition & Text-to-Speech** – Understands voice commands and responds naturally.  
@@ -41,5 +36,3 @@ KAAL is a Personal Voice Assistant built with Python, HTML, CSS, and JavaScript.
 2. **Speech Recognition** → Converts voice to text using `SpeechRecognition`.  
 3. **Command Processing** → Python processes the text and maps it to tasks (e.g., play music, open app, search).  
 4. **Response** → Assistant responds via `pyttsx3` or updates the UI via JavaScript.  
-
-## 📂 Project Structure
