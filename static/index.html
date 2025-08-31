@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>KAAL — Personal Voice Assistant</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <div class="wrap">
+    <header class="top">
+      <h1><span class="accent">KAAL</span> — Personal Voice Assistant</h1>
+      <p class="subtitle">Jarvis-inspired UI • Built with HTML/CSS/JS + Python (Flask)</p>
+    </header>
+
+    <main class="stage">
+      <div class="rings">
+        <div class="ring r1"></div>
+        <div class="ring r2"></div>
+        <div class="ring r3"></div>
+        <div class="core"></div>
+      </div>
+
+      <div class="panel">
+        <div class="heard">
+          <div class="label">You said</div>
+          <div id="heardText" class="text">—</div>
+        </div>
+
+        <div class="reply">
+          <div class="label">KAAL</div>
+          <div id="replyText" class="text">Tap the mic and speak…</div>
+        </div>
+
+        <div class="controls">
+          <button id="micBtn" class="mic">🎙️ Start</button>
+          <button id="stopBtn" class="stop" disabled>⏹️ Stop</button>
+        </div>
+
+        <div id="status" class="status">Idle</div>
+      </div>
+    </main>
+
+    <footer class="foot">
+      <div>Try: “What’s the time?”, “Tell me a joke”, “Open YouTube”, “Who is Ada Lovelace?”</div>
+      <div class="note">Best in Google Chrome • Mic permission required • Runs entirely on your machine</div>
+    </footer>
+  </div>
+
+  <script src="./app.js"></script>
+</body>
+</html>
